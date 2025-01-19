@@ -1,0 +1,15 @@
+{
+  "startDate": "Start date",
+  "endDate": "End date",
+  "find": "Find",
+  "searchHint": "Type to search...",
+  "recordsPerPage": "Records per page",
+  "found": "Found",
+  "language": "Choose language",
+  "en": "English",
+  "ua": "Ukrainian",
+  "total": "Total",
+  "free": "Free",
+  "busy": "Busy",
+  "notFound":"No cars found in chosen period."
+}
