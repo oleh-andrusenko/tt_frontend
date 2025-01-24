@@ -26,10 +26,12 @@ function Car({car, t}) {
                     <div className={'w-1/3 text-center border-2 px-2 py-1 border-red-500 text-red-600 rounded-full'}>
                         <p><span>{t('busy')}:</span> {car.busy}</p>
                     </div>
-                    <div className={'w-1/3 text-center border-2 px-2 py-1 border-green-400 text-green-600 rounded-full'}>
+                    <div
+                        className={'w-1/3 text-center border-2 px-2 py-1 border-green-400 text-green-600 rounded-full'}>
                         <p><span>{t('free')}:</span> {car.total - car.busy}</p>
                     </div>
-                    <div className={'w-1/3 text-center border-2 px-2 py-1 border-indigo-500 text-indigo-600 rounded-full'}>
+                    <div
+                        className={'w-1/3 text-center border-2 px-2 py-1 border-indigo-500 text-indigo-600 rounded-full'}>
                         <p>
                             <span>{t('total')}:</span> {car.total}
                         </p>
